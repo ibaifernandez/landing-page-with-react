@@ -58,7 +58,9 @@ export const Home = () => {
     <h1 style={{color: "red"}}>Hello Style!</h1>
 ```
 
-## **3. ¿Por qué no puedo hacer funcionar este proyecto como en el proyecto «hello-react» que hicimos anteriormente? Es decir, en «hello-react», `index.js` funcionaba con el siguiente código:**
+## **3. ¿Por qué no puedo hacer funcionar este proyecto como en el proyecto «hello-react» que hicimos anteriormente?**
+
+Es decir, en «hello-react», `index.js` funcionaba con el siguiente código:
 
 ```
 const root = ReactDOM.createRoot(document.getElementById("root"));
