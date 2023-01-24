@@ -8,6 +8,9 @@ export const Home = () => {
         <header>
         ...
         </header>
+    );
+};
+
 ```
 
 Pero esto no...
