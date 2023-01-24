@@ -75,7 +75,7 @@ root.render(
 
 Y, así, iba renderizando `<Header />`, `<Hero />`, etc.
 
-Pero cuando trato de implementar el mismo modo de hacer las coas en el presente proyecto, esa misma estrcutura anterior no me funciona... ¿por qué?
+Pero cuando trato de implementar el mismo modo de hacer las coas en el presente proyecto, esa misma estrcutura anterior no me funciona... **¿por qué?**
 
 ## **4. Comentarios HTML in React**
 
