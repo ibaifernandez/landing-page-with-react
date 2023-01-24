@@ -77,12 +77,10 @@ Y, así, iba renderizando `<Header />`, `<Hero />`, etc.
 
 Pero cuando trato de implementar el mismo modo de hacer las coas en el presente proyecto, esa misma estrcutura anterior no me funciona... ¿por qué?
 
-**4. Comentarios HTML en React**
-
-## **4. Comentarios HTML en React**
-
 ## **4. Comentarios HTML in React**
 
 Obsérvese igualmente como los «comentarios HTML» en React no se hacen como si de HTML se tratare, mas como si fuere JavaScript. Eso sí, encapsulando el comentario entre llaves (`{*/ Aquí va un comentario */}`).
 
-## **5. Finalmente, cuando se quiere insertar un espacio en un archivo `.jsx`, en lugar del tradicional `&nbsp;`, se pone un espacio entre comillas y llaves (`{" "}`).**
+## **5. _Blank spaces_ en React**
+
+Finalmente, cuando se quiere insertar un espacio en un archivo `.jsx`, en lugar del tradicional `&nbsp;`, se pone un espacio entre comillas y llaves (`{" "}`).
