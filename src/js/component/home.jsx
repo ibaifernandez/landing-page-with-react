@@ -258,23 +258,21 @@ export const Home = () => {
                     <div className="card mt-md-3 my-card">
                         <img
                             className="card-img-top"
-                            src={cardDataObject.card1.card1Image}
-                            alt={cardDataObject.card1.card1Title}
+                            src={cardDataObject.card1.cardImage}
+                            alt={cardDataObject.card1.cardTitle}
                         />
                         <div className="card-body">
                             <h5 className="card-title">
-                                {cardDataObject.card1.card1Title}
+                                {cardDataObject.card1.cardTitle}
                             </h5>
                             <p className="card-text">
-                                {cardDataObject.card1.card1Description}{" "}
+                                {cardDataObject.card1.cardDescription}{" "}
                             </p>
                             <a
-                                href={
-                                    cardDataObject.card1.card1button.buttonURL
-                                }
+                                href={cardDataObject.card1.cardButton.buttonURL}
                                 className="btn btn-primary"
                             >
-                                {cardDataObject.card1.card1button.buttonLabel}
+                                {cardDataObject.card1.cardButton.buttonLabel}
                             </a>
                         </div>
                     </div>
@@ -282,23 +280,21 @@ export const Home = () => {
                     <div className="card mt-md-3 my-card">
                         <img
                             className="card-img-top"
-                            src={cardDataObject.card1.card1Image}
-                            alt={cardDataObject.card1.card1Title}
+                            src={cardDataObject.card2.cardImage}
+                            alt={cardDataObject.card2.cardTitle}
                         />
                         <div className="card-body">
                             <h5 className="card-title">
-                                {cardDataObject.card1.card1Title}
+                                {cardDataObject.card2.cardTitle}
                             </h5>
                             <p className="card-text">
-                                {cardDataObject.card1.card1Description}{" "}
+                                {cardDataObject.card2.cardDescription}{" "}
                             </p>
                             <a
-                                href={
-                                    cardDataObject.card1.card1button.buttonURL
-                                }
+                                href={cardDataObject.card2.cardButton.buttonURL}
                                 className="btn btn-primary"
                             >
-                                {cardDataObject.card1.card1button.buttonLabel}
+                                {cardDataObject.card2.cardButton.buttonLabel}
                             </a>
                         </div>
                     </div>
@@ -306,23 +302,21 @@ export const Home = () => {
                     <div className="card mt-md-3 my-card">
                         <img
                             className="card-img-top"
-                            src={cardDataObject.card1.card1Image}
-                            alt={cardDataObject.card1.card1Title}
+                            src={cardDataObject.card3.cardImage}
+                            alt={cardDataObject.card3.cardTitle}
                         />
                         <div className="card-body">
                             <h5 className="card-title">
-                                {cardDataObject.card1.card1Title}
+                                {cardDataObject.card3.cardTitle}
                             </h5>
                             <p className="card-text">
-                                {cardDataObject.card1.card1Description}{" "}
+                                {cardDataObject.card3.cardDescription}{" "}
                             </p>
                             <a
-                                href={
-                                    cardDataObject.card1.card1button.buttonURL
-                                }
+                                href={cardDataObject.card3.cardButton.buttonURL}
                                 className="btn btn-primary"
                             >
-                                {cardDataObject.card1.card1button.buttonLabel}
+                                {cardDataObject.card3.cardButton.buttonLabel}
                             </a>
                         </div>
                     </div>
@@ -330,23 +324,21 @@ export const Home = () => {
                     <div className="card mt-md-3 my-card">
                         <img
                             className="card-img-top"
-                            src={cardDataObject.card1.card1Image}
-                            alt={cardDataObject.card1.card1Title}
+                            src={cardDataObject.card4.cardImage}
+                            alt={cardDataObject.card4.cardTitle}
                         />
                         <div className="card-body">
                             <h5 className="card-title">
-                                {cardDataObject.card1.card1Title}
+                                {cardDataObject.card4.cardTitle}
                             </h5>
                             <p className="card-text">
-                                {cardDataObject.card1.card1Description}{" "}
+                                {cardDataObject.card4.cardDescription}{" "}
                             </p>
                             <a
-                                href={
-                                    cardDataObject.card1.card1button.buttonURL
-                                }
+                                href={cardDataObject.card4.cardButton.buttonURL}
                                 className="btn btn-primary"
                             >
-                                {cardDataObject.card1.card1button.buttonLabel}
+                                {cardDataObject.card4.cardButton.buttonLabel}
                             </a>
                         </div>
                     </div>
