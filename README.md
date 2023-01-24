@@ -26,6 +26,8 @@ export const Home = () => {
         <footer>
         ...
         </footer>
+    );
+};
 ```
 
 De modo que me tengo que ayudar del `fragment` tal que así:
@@ -44,6 +46,8 @@ export const Home = () => {
         ...
         </footer>
         </>
+    );
+};
 ```
 
 ¿Por qué?
