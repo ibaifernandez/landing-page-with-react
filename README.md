@@ -1,4 +1,50 @@
-1. ¿Cuándo se necesita el _fragment_? `<header>...</header>` —en solitario— renderiza, pero `<header>...</header>` + `<main>...</main>` + `<footer>...</footer>`, no. ¿Por qué?
+1. **¿Cuándo se necesita el _fragment_?**
+
+El siguiente _snippet_ renderiza:
+
+```
+export const Home = () => {
+    return (
+        <header>
+        ...
+        </header>
+```
+
+Pero esto no...
+
+```
+export const Home = () => {
+    return (
+        <header>
+        ...
+        </header>
+        <main>
+        ...
+        </main>
+        <footer>
+        ...
+        </footer>
+```
+
+De modo que me tengo que ayudar del `fragment` tal que así:
+
+```
+export const Home = () => {
+    return (
+        <>
+        <header>
+        ...
+        </header>
+        <main>
+        ...
+        </main>
+        <footer>
+        ...
+        </footer>
+        </>
+```
+
+¿Por qué?
 
 2. Es importante recordar como se escribe estilos en línea (_inline styles_) en React:
 
