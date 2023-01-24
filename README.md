@@ -10,7 +10,6 @@ export const Home = () => {
         </header>
     );
 };
-
 ```
 
 Pero esto no...
