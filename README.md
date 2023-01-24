@@ -1,4 +1,4 @@
-1. ¿Cuándo se necesita el _fragment_? <header>...</header> —en solitario— renderiza, pero `<header>...</header>` + `<main>...</main>` + `<footer>...</footer>`, no. ¿Por qué?
+1. ¿Cuándo se necesita el _fragment_? `<header>...</header>` —en solitario— renderiza, pero `<header>...</header>` + `<main>...</main>` + `<footer>...</footer>`, no. ¿Por qué?
 
 2. Es importante recordar como se escribe estilos en línea (_inline styles_) en React:
 
