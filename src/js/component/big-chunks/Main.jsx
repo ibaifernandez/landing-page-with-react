@@ -1,5 +1,6 @@
 import React from "react";
-import cardDataObject from "../data/cardDataObject";
+// import cardDataObject from "../data/cardDataObject";
+import data from "../data/myData.json";
 import Card from "../small-chunks/Card.jsx";
 import Jumbotron from "../small-chunks/Jumbotron.jsx";
 
@@ -9,32 +10,32 @@ const Main = () => {
             <Jumbotron />
             <section className="m-5 d-flex flex-wrap justify-content-between">
                 <Card
-                    imageURL={cardDataObject.card1.cardImage}
-                    title={cardDataObject.card1.cardTitle}
-                    description={cardDataObject.card1.cardDescription}
-                    buttonURL={cardDataObject.card1.cardButton.buttonURL}
-                    buttonLabel={cardDataObject.card1.cardButton.buttonLabel}
+                    imageURL={data.card1.cardImage}
+                    title={data.card1.cardTitle}
+                    description={data.card1.cardDescription}
+                    buttonURL={data.card1.cardButton.buttonURL}
+                    buttonLabel={data.card1.cardButton.buttonLabel}
                 />
                 <Card
-                    imageURL={cardDataObject.card2.cardImage}
-                    title={cardDataObject.card2.cardTitle}
-                    description={cardDataObject.card2.cardDescription}
-                    buttonURL={cardDataObject.card2.cardButton.buttonURL}
-                    buttonLabel={cardDataObject.card2.cardButton.buttonLabel}
+                    imageURL={data.card2.cardImage}
+                    title={data.card2.cardTitle}
+                    description={data.card2.cardDescription}
+                    buttonURL={data.card2.cardButton.buttonURL}
+                    buttonLabel={data.card2.cardButton.buttonLabel}
                 />
                 <Card
-                    imageURL={cardDataObject.card3.cardImage}
-                    title={cardDataObject.card3.cardTitle}
-                    description={cardDataObject.card3.cardDescription}
-                    buttonURL={cardDataObject.card3.cardButton.buttonURL}
-                    buttonLabel={cardDataObject.card3.cardButton.buttonLabel}
+                    imageURL={data.card3.cardImage}
+                    title={data.card3.cardTitle}
+                    description={data.card3.cardDescription}
+                    buttonURL={data.card3.cardButton.buttonURL}
+                    buttonLabel={data.card3.cardButton.buttonLabel}
                 />
                 <Card
-                    imageURL={cardDataObject.card4.cardImage}
-                    title={cardDataObject.card4.cardTitle}
-                    description={cardDataObject.card4.cardDescription}
-                    buttonURL={cardDataObject.card4.cardButton.buttonURL}
-                    buttonLabel={cardDataObject.card4.cardButton.buttonLabel}
+                    imageURL={data.card4.cardImage}
+                    title={data.card4.cardTitle}
+                    description={data.card4.cardDescription}
+                    buttonURL={data.card4.cardButton.buttonURL}
+                    buttonLabel={data.card4.cardButton.buttonLabel}
                 />
             </section>
         </main>

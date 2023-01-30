@@ -373,4 +373,28 @@ Resulting in the following `props` object:
 
 And, by doing so, not only our **Landing Page with React** is built, but also the **Bootstrap Cards** within the `<section>` of our `<Main />` Component are generated assigning **dynamic values** to each one of them.
 
+### Consuming JSON files
+
+As of January 30th, 2023, this project has had a major change.
+
+Now, instead of consuming the data displayed in every card from an object stored in a .js file, it does consume the data from a JSON file.
+
+In order to do that:
+
+0. We've removed all references to the `dataCardObject.js` file.
+
+1. We've created a JSON file at `"../data/myData.json"`.
+
+2. We've imported `data` from `"../data/myData.json"` at `Main.jsx`:
+
+    - Note `import data from "../data/myData.json";` at `Main.jsx:3`
+
+    - Note that you can see the contents of the JSON file in console by running `console.log(data)`.
+
+3. We've changed the assignment on every property of every card, like so:
+
+    - imageURL={data.card1.cardImage}
+
+Now, the page duly works, but it's consuming data from a JSON file.
+
 <div style="text-align:center; font-weight:bold"> ~ The End ~</div>
